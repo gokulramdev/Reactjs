@@ -13,7 +13,7 @@ class DemoState extends Component {
       age: 27,
     });
   }
-  
+
   render() {
     return (
       <div>
