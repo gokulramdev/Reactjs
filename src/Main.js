@@ -10,6 +10,9 @@ import Form from "./component/Form";
 import FormHooks from "./component/FormHooks";
 import LifeCycle from "./component/LifeCycle";
 import Effects from './component/Effects';
+import Ref from "./component/Ref";
+import Cont from "./component/Cont";
+import Routing from "./component/Routing"
 
 function Main() {
   const Data = {
@@ -23,10 +26,14 @@ function Main() {
 
     return (
     <>
-       {/* <Header name="Testing" age={Data} buy={Click} /> */}
-       {/* <LifeCycle/> */}
-       {/* <Effects/> */}
-       <FormHooks/>
+       {/* <Header name="Testing" age={Data} buy={Click} />
+       <LifeCycle/>
+        <Effects/> 
+        <FormHooks/> 
+       <Ref/>
+       <Cont/> */}
+
+       <Routing></Routing>
     </>
   );
 }
