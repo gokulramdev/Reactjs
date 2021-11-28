@@ -1,19 +1,14 @@
-import { createContext, useContext } from "react";
-import Child from './Child';
-
-
+import { createContext } from "react";
+import Child from "./Child";
 
 export const UserContext = createContext();
 
 function Cont() {
-  
-  
   return (
-    <UserContext.Provider value="Gokulram">
-      <Child/>
+    <UserContext.Provider value="gokul">
+      <Child />
     </UserContext.Provider>
   );
 }
 
-
-export default Cont
+export default Cont;

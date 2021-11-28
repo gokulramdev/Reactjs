@@ -8,6 +8,7 @@ export default function Effects() {
 
   console.log("Inital");
   // eslint-disable-next-line react-hooks/exhaustive-deps
+  
   useEffect(async () => {
     setloading(true);
     await axios

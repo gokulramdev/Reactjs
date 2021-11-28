@@ -13,13 +13,13 @@ export default function FormHooks(props) {
 
   console.log(formData)
   const onChangeData = (e) => {
-  console.log("..........______",e.target)
     const { name, value } = e.target;
     setfFormData({ ...formData, [name]: value });
   };
   const handleSubmit = (evt) => {
     evt.preventDefault();
     console.log(formData);
+
   };
 
   return (

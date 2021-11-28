@@ -13,7 +13,8 @@ import Effects from './component/Effects';
 import Ref from "./component/Ref";
 import Cont from "./component/Cont";
 import Routing from "./component/Routing"
-
+import Product from "./component/Product";
+import Reducer from "./component/Reducer"
 function Main() {
   const Data = {
     name: "Gokul",
@@ -29,11 +30,14 @@ function Main() {
        {/* <Header name="Testing" age={Data} buy={Click} />
        <LifeCycle/>
         <Effects/> 
-        <FormHooks/> 
-       <Ref/>
-       <Cont/> */}
-
-       <Routing></Routing>
+        
+        <Ref/>
+        <Cont/>
+       <Routing></Routing> */}
+       {/* <Product/> */}
+       <h2>Reducer</h2>
+       <Reducer/>
+       {/* <FormHooks/>  */}
     </>
   );
 }
